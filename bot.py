@@ -263,9 +263,9 @@ def inline(call):
         i=1
         y=games[ids]
   if i==1:
-        y['players']['betto']=call.data
-        medit('Ставка принята. Вы поставили '+str(y['players']['bet'])+' членокоинов на '+call.data+'! Ждите результатов в чате', call.from_user.id, call.message.message_id)
-        bot.send_message(y['id'], y['players'][call.from_user.id]['name']+' поставил '+str(y['players']['bet'])+' членокоинов на '+call.data+'!')
+        y['players'][call.from_user.id]['betto']=call.data
+        medit('Ставка принята. Вы поставили '+str(y['players'][call.from_user.id]['bet'])+' членокоинов на '+call.data+'! Ждите результатов в чате', call.from_user.id, call.message.message_id)
+        bot.send_message(y['id'], y['players'][call.from_user.id]['name']+' поставил '+str(y['players'][call.from_user.id]['bet'])+' членокоинов на '+call.data+'!')
         
     
     
