@@ -247,7 +247,7 @@ def texttt(m):
                         kb.add(types.InlineKeyboardButton(text='1-15', callback_data='1-15'),types.InlineKeyboardButton(text='16-30', callback_data='16-30'),types.InlineKeyboardButton(text='1-5', callback_data='1-5'))
                         kb.add(types.InlineKeyboardButton(text='6-10', callback_data='6-10'),types.InlineKeyboardButton(text='11-15', callback_data='11-15'),types.InlineKeyboardButton(text='16-20', callback_data='16-20'))
                         kb.add(types.InlineKeyboardButton(text='21-25', callback_data='21-25'),types.InlineKeyboardButton(text='26-30', callback_data='26-30'),types.InlineKeyboardButton(text='0', callback_data='0'))
-                        bot.send_message(m.from_user.id, 'Вы поставили '+str(x)+' членокоинов! Теперь выберите, на что вы их ставите:')
+                        bot.send_message(m.from_user.id, 'Вы поставили '+str(x)+' членокоинов! Теперь выберите, на что вы их ставите:', reply_markup=kb)
                     else:
                         bot.send_message(m.chat.id, 'Недостаточно членокоинов!')
             except:
