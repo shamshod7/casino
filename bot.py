@@ -128,6 +128,7 @@ def rollend(id, id2):
     medit('Выпавшее число: *'+str(x)+'*.', id, id2)
     text=''
     for ids in games[id]['players']:
+      if games[id]['players'][ids]['betto']!=None:
         if games[id]['players'][ids]['betto']=='1-15':
             if x>0 and x<=15:
                 win=games[id]['players'][ids]['bet']*1.5
@@ -208,7 +209,8 @@ def rollend(id, id2):
             else:
                 win=-games[id]['players'][ids]['bet']
                 text+='*'+games[id]['players'][ids]['name']+'*'+' проиграл '+str(win+(-win*2))+' членокоин(ов)!\n'
-                
+      else:
+        text+='*'+games[id]['players'][ids]['name']+'*'+' Не поставил ничего!\n'
         users.update_one({'id':ids}, {'$inc':{'chlenocoins':win}})
                 
     bot.send_message(id, text, parse_mode='markdown')
