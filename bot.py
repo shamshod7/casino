@@ -34,7 +34,7 @@ def help(m):
     bot.send_message(m.chat.id, 'Коэффициенты ставок:\n'+
                      '1-15, 16-30: *1.5*\n'+
                      '1-5, 6-10, 11-15, 16-20, 21-25, 26-30: *5*\n'+
-                     '0: *15*', parse_mode='markdown')
+                     '0: *25*', parse_mode='markdown')
             
             
 @bot.message_handler(commands=['join'])
@@ -204,7 +204,7 @@ def rollend(id, id2):
                 
         if games[id]['players'][ids]['betto']=='0':
             if x==0:
-                win=games[id]['players'][ids]['bet']*15
+                win=games[id]['players'][ids]['bet']*25
                 win=round(win, 0)
                 text+='*'+games[id]['players'][ids]['name']+'*'+' Выиграл '+str(win)+' членокоин(ов)!\n'
             else:
@@ -292,7 +292,7 @@ def createlobby(id):
         'result':None,
         'coef':{'1-15':1.5,
                 '16-30':1.5,
-                '0':15,
+                '0':25,
                 '1-5':5,
                 '6-10':5,
                 '11-15':5,
