@@ -126,7 +126,7 @@ def roll12(id, id2):
 def rollend(id, id2):
     x=random.randint(0,30)
     medit('Выпавшее число: *'+str(x)+'*.', id, id2)
-    text=''
+    text='Результаты:\n\n'
     for ids in games[id]['players']:
       if games[id]['players'][ids]['betto']!=None:
         if games[id]['players'][ids]['betto']=='1-15':
