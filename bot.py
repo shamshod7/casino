@@ -244,12 +244,17 @@ def texttt(m):
                 player=users.find_one({'id':m.from_user.id})
                 if player!=None:
                     if player['chlenocoins']>=x:
-                    y['players'][m.from_user.id]['bet']=x
-                    kb=types.InlineKeyboardMarkup()
-                    kb.add(types.InlineKeyboardButton(text='1-15', callback_data='1-15'),types.InlineKeyboardButton(text='16-30', callback_data='16-30'),types.InlineKeyboardButton(text='1-5', callback_data='1-5'))
-                    kb.add(types.InlineKeyboardButton(text='6-10', callback_data='6-10'),types.InlineKeyboardButton(text='11-15', callback_data='11-15'),types.InlineKeyboardButton(text='16-20', callback_data='16-20'))
-                    kb.add(types.InlineKeyboardButton(text='21-25', callback_data='21-25'),types.InlineKeyboardButton(text='26-30', callback_data='26-30'),types.InlineKeyboardButton(text='0', callback_data='0'))
-                    bot.send_message(m.from_user.id, 'Вы поставили '+str(x)+' членокоинов! Теперь выберите, на что вы их ставите:')
+                        y['players'][m.from_user.id]['bet']=x
+                        kb=types.InlineKeyboardMarkup()
+                        kb.add(types.InlineKeyboardButton(text='1-15', callback_data='1-15'),types.InlineKeyboardButton(text='16-30', callback_data='16-30'),types.InlineKeyboardButton(text='1-5', callback_data='1-5'))
+                        kb.add(types.InlineKeyboardButton(text='6-10', callback_data='6-10'),types.InlineKeyboardButton(text='11-15', callback_data='11-15'),types.InlineKeyboardButton(text='16-20', callback_data='16-20'))
+                        kb.add(types.InlineKeyboardButton(text='21-25', callback_data='21-25'),types.InlineKeyboardButton(text='26-30', callback_data='26-30'),types.InlineKeyboardButton(text='0', callback_data='0'))
+                        bot.send_message(m.from_user.id, 'Вы поставили '+str(x)+' членокоинов! Теперь выберите, на что вы их ставите:')
+                    else:
+                        bot.send_message(m.chat.id, 'Недостаточно членокоинов!')
+            except:
+                pass
+           
                 
             
 @bot.callback_query_handler(func=lambda call:True)
