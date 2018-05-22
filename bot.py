@@ -211,7 +211,8 @@ def rollend(id, id2):
                 text+='*'+games[id]['players'][ids]['name']+'*'+' проиграл '+str(win+(-win*2))+' членокоин(ов)!\n'
       else:
         text+='*'+games[id]['players'][ids]['name']+'*'+' Не поставил ничего!\n'
-        users.update_one({'id':ids}, {'$inc':{'chlenocoins':win}})
+        win=0
+      users.update_one({'id':ids}, {'$inc':{'chlenocoins':win}})
                 
     bot.send_message(id, text, parse_mode='markdown')
         
