@@ -45,7 +45,7 @@ def join(m):
         if m.from_user.id not in games[m.chat.id]['players']:
           if games[m.chat.id]['began']!=1:
             try:
-                bot.send_message(m.from_user.id, 'Вы участвуете в казино!')
+                bot.send_message(m.from_user.id, 'Вы присоединились к казино!')
                 bot.send_message(m.chat.id, m.from_user.first_name+' Вошел в казино!')
                 games[m.chat.id]['players'].update(createuser(m.from_user.id, m.from_user.first_name))
             except:
@@ -262,6 +262,7 @@ def inline(call):
   if i==1:
         y['players']['betto']=call.data
         medit('Ставка принята. Вы поставили '+str(y['players']['bet'])+' членокоинов на '+call.data+'! Ждите результатов в чате', call.from_user.id, call.message.message_id)
+        bot.send_message(y['id'], y['players'][call.from_user.id]['name']+' поставил '+str(y['players']['bet'])+' членокоинов на '+call.data+'!')
         
     
     
