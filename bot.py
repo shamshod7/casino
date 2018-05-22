@@ -54,6 +54,7 @@ def join(m):
 def roll(m):
     if m.from_user.id in admins:
         if m.chat.id in games:
+          if games[m.chat.id]['began']==1:
             x=random.randint(0,30)
             msg=bot.send_message(m.chat.id, 'Крутим барабан...\n'+'🕐')
             t=threading.Timer(0.1, roll2, args=[m.chat.id, msg.message_id])
