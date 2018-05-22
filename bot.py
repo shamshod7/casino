@@ -216,6 +216,7 @@ def rollend(id, id2):
       users.update_one({'id':ids}, {'$inc':{'chlenocoins':win}})
                 
     bot.send_message(id, text, parse_mode='markdown')
+    del games[id]
         
         
  
