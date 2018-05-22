@@ -56,76 +56,76 @@ def roll(m):
         if m.chat.id in games:
             x=random.randint(0,30)
             msg=bot.send_message(m.chat.id, 'Крутим барабан...\n'+'🕐')
-            t=threading.Timer(0.2, roll2, args=[m.chat.id, msg.message_id])
+            t=threading.Timer(0.1, roll2, args=[m.chat.id, msg.message_id])
             t.start()
             
             
 def roll2(id, id2):
     medit('Крутим барабан...\n'+'🕑', id, id2)
-    t=threading.Timer(0.2, roll3, args=[id, id2])
+    t=threading.Timer(0.1, roll3, args=[id, id2])
     t.start()
     
 def roll3(id, id2):
     medit('Крутим барабан...\n'+'🕒', id, id2)
-    t=threading.Timer(0.2, roll4, args=[id, id2])
+    t=threading.Timer(0.1, roll4, args=[id, id2])
     t.start()
     
     
 def roll4(id, id2):
     medit('Крутим барабан...\n'+'🕓', id, id2)
-    t=threading.Timer(0.2, roll5, args=[id, id2])
+    t=threading.Timer(0.1, roll5, args=[id, id2])
     t.start()
     
     
 def roll5(id, id2):
     medit('Крутим барабан...\n'+'🕔', id, id2)
-    t=threading.Timer(0.2, roll6, args=[id, id2])
+    t=threading.Timer(0.1, roll6, args=[id, id2])
     t.start()
     
 def roll6(id, id2):
     medit('Крутим барабан...\n'+'🕕', id, id2)    #half
-    t=threading.Timer(0.2, roll7, args=[id, id2])
+    t=threading.Timer(0.1, roll7, args=[id, id2])
     t.start()
     
 def roll7(id, id2):
     medit('Крутим барабан...\n'+'🕖', id, id2)   
-    t=threading.Timer(0.2, roll8, args=[id, id2])
+    t=threading.Timer(0.1, roll8, args=[id, id2])
     t.start()
     
 
 def roll8(id, id2):
     medit('Крутим барабан...\n'+'🕗', id, id2)   
-    t=threading.Timer(0.2, roll9, args=[id, id2])
+    t=threading.Timer(0.1, roll9, args=[id, id2])
     t.start()
     
     
 def roll9(id, id2):
     medit('Крутим барабан...\n'+'🕘', id, id2)   
-    t=threading.Timer(0.2, roll10, args=[id, id2])
+    t=threading.Timer(0.1, roll10, args=[id, id2])
     t.start()
     
     
 def roll10(id, id2):
     medit('Крутим барабан...\n'+'🕙', id, id2)   
-    t=threading.Timer(0.2, roll11, args=[id, id2])
+    t=threading.Timer(0.1, roll11, args=[id, id2])
     t.start()
     
     
 def roll11(id, id2):
     medit('Крутим барабан...\n'+'🕚', id, id2)   
-    t=threading.Timer(0.2, roll12, args=[id, id2])
+    t=threading.Timer(0.1, roll12, args=[id, id2])
     t.start()
     
     
 def roll12(id, id2):
     medit('Крутим барабан...\n'+'🕛', id, id2)   
-    t=threading.Timer(0.2, rollend, args=[id, id2])
+    t=threading.Timer(0.1, rollend, args=[id, id2])
     t.start()   
     
     
 def rollend(id, id2):
     x=random.randint(0,30)
-    medit('Выпавшее число: *'+str(x)+'*.')
+    medit('Выпавшее число: *'+str(x)+'*.', id, id2)
     text=''
     for ids in games[id]['players']:
         if games[id]['players'][ids]['betto']=='1-15':
