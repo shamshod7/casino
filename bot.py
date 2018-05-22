@@ -135,6 +135,7 @@ def rollend(id, id2):
                 win=games[id]['players'][ids]['bet']*1.5
                 win=round(win, 0)
                 text+='*'+games[id]['players'][ids]['name']+'*'+' Выиграл '+str(win)+' членокоин(ов)!\n'
+                users.update_one({'id':ids}, {'$inc':{'chlenocoins':-games[id]['players'][ids]['bet']}})
             else:
                 win=-games[id]['players'][ids]['bet']
                 text+='*'+games[id]['players'][ids]['name']+'*'+' проиграл '+str(win+(-win*2))+' членокоин(ов)!\n'
@@ -144,6 +145,7 @@ def rollend(id, id2):
                 win=games[id]['players'][ids]['bet']*1.5
                 win=round(win, 0)
                 text+='*'+games[id]['players'][ids]['name']+'*'+' Выиграл '+str(win)+' членокоин(ов)!\n'
+                users.update_one({'id':ids}, {'$inc':{'chlenocoins':-games[id]['players'][ids]['bet']}})
             else:
                 win=-games[id]['players'][ids]['bet']
                 text+='*'+games[id]['players'][ids]['name']+'*'+' проиграл '+str(win+(-win*2))+' членокоин(ов)!\n'
@@ -153,6 +155,7 @@ def rollend(id, id2):
                 win=games[id]['players'][ids]['bet']*5
                 win=round(win, 0)
                 text+='*'+games[id]['players'][ids]['name']+'*'+' Выиграл '+str(win)+' членокоин(ов)!\n'
+                users.update_one({'id':ids}, {'$inc':{'chlenocoins':-games[id]['players'][ids]['bet']}})
             else:
                 win=-games[id]['players'][ids]['bet']
                 text+='*'+games[id]['players'][ids]['name']+'*'+' проиграл '+str(win+(-win*2))+' членокоин(ов)!\n'
@@ -162,6 +165,7 @@ def rollend(id, id2):
                 win=games[id]['players'][ids]['bet']*5
                 win=round(win, 0)
                 text+='*'+games[id]['players'][ids]['name']+'*'+' Выиграл '+str(win)+' членокоин(ов)!\n'
+                users.update_one({'id':ids}, {'$inc':{'chlenocoins':-games[id]['players'][ids]['bet']}})
             else:
                 win=-games[id]['players'][ids]['bet']
                 text+='*'+games[id]['players'][ids]['name']+'*'+' проиграл '+str(win+(-win*2))+' членокоин(ов)!\n'
@@ -172,6 +176,7 @@ def rollend(id, id2):
                 win=games[id]['players'][ids]['bet']*5
                 win=round(win, 0)
                 text+='*'+games[id]['players'][ids]['name']+'*'+' Выиграл '+str(win)+' членокоин(ов)!\n'
+                users.update_one({'id':ids}, {'$inc':{'chlenocoins':-games[id]['players'][ids]['bet']}})
             else:
                 win=-games[id]['players'][ids]['bet']
                 text+='*'+games[id]['players'][ids]['name']+'*'+' проиграл '+str(win+(-win*2))+' членокоин(ов)!\n'
@@ -181,6 +186,7 @@ def rollend(id, id2):
                 win=games[id]['players'][ids]['bet']*5
                 win=round(win, 0)
                 text+='*'+games[id]['players'][ids]['name']+'*'+' Выиграл '+str(win)+' членокоин(ов)!\n'
+                users.update_one({'id':ids}, {'$inc':{'chlenocoins':-games[id]['players'][ids]['bet']}})
             else:
                 win=-games[id]['players'][ids]['bet']
                 text+='*'+games[id]['players'][ids]['name']+'*'+' проиграл '+str(win+(-win*2))+' членокоин(ов)!\n'
@@ -190,6 +196,7 @@ def rollend(id, id2):
                 win=games[id]['players'][ids]['bet']*5
                 win=round(win, 0)
                 text+='*'+games[id]['players'][ids]['name']+'*'+' Выиграл '+str(win)+' членокоин(ов)!\n'
+                users.update_one({'id':ids}, {'$inc':{'chlenocoins':-games[id]['players'][ids]['bet']}})
             else:
                 win=-games[id]['players'][ids]['bet']
                 text+='*'+games[id]['players'][ids]['name']+'*'+' проиграл '+str(win+(-win*2))+' членокоин(ов)!\n'
@@ -199,6 +206,7 @@ def rollend(id, id2):
                 win=games[id]['players'][ids]['bet']*5
                 win=round(win, 0)
                 text+='*'+games[id]['players'][ids]['name']+'*'+' Выиграл '+str(win)+' членокоин(ов)!\n'
+                users.update_one({'id':ids}, {'$inc':{'chlenocoins':-games[id]['players'][ids]['bet']}})
             else:
                 win=-games[id]['players'][ids]['bet']
                 text+='*'+games[id]['players'][ids]['name']+'*'+' проиграл '+str(win+(-win*2))+' членокоин(ов)!\n'
@@ -208,6 +216,7 @@ def rollend(id, id2):
                 win=games[id]['players'][ids]['bet']*25
                 win=round(win, 0)
                 text+='*'+games[id]['players'][ids]['name']+'*'+' Выиграл '+str(win)+' членокоин(ов)!\n'
+                users.update_one({'id':ids}, {'$inc':{'chlenocoins':-games[id]['players'][ids]['bet']}})
             else:
                 win=-games[id]['players'][ids]['bet']
                 print(int(win))
