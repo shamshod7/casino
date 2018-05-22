@@ -165,7 +165,8 @@ def rollend(id, id2):
             else:
                 win=-games[id]['players'][ids]['bet']
                 text+='*'+games[id]['players'][ids]['name']+'*'+' проиграл '+str(win+(-win*2))+' членокоин(ов)!\n'
-            
+                print(win)
+                
         if games[id]['players'][ids]['betto']=='11-15':
             if x>=11 and x<=15:
                 win=games[id]['players'][ids]['bet']*5
