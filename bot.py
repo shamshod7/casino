@@ -24,10 +24,10 @@ users=db.ids_people
 def begin(m):
     if m.from_user.id in admins:
         if m.chat.id in games:
-            bot.send_message(m.chat.id, '🎰*Qimor tikildi*...')
-            bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...\n'+'🕐')
-            bot.send_message(m.chat.id, '🕡Baraban aylanmoqda...\n'+'🕐')
-            bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...\n'+'🕐')
+            bot.send_message(m.chat.id, '🎰*Qimor tikildi...*', parse_mode='markdown)
+            bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, '🕡Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...')
             bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🎴Aql Toshi*', parse_mode='markdown')
             
                  
