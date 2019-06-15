@@ -28,7 +28,7 @@ def begin(m):
             bot.send_message(m.chat.id, 'Baraban aylanmoqda...\n'+'🕐')
             bot.send_message(m.chat.id, 'Baraban aylanmoqda...\n'+'🕐')
             bot.send_message(m.chat.id, 'Baraban aylanmoqda...\n'+'🕐')
-            bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🌎Aql Toshi*')
+            bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🎴Aql Toshi*', parse_mode='markdown')
             
                  
 @bot.message_handler(commands=['help'])
