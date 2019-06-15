@@ -12,7 +12,7 @@ token = os.environ['TELEGRAM_TOKEN']
 bot = telebot.TeleBot(token)
 
 admins=[379168159]
-games={-1001187120804}
+games={-1001398455154}
 
 client1=os.environ['database']
 client=MongoClient(client1)
