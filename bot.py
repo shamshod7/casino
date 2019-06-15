@@ -27,7 +27,8 @@ def begin(m):
             bot.send_message(m.chat.id, 'Начинаем делать ставки (в лс бота)! Про коэффициенты выигрышей вы можете узнать с помощью команды /help')
             msg=bot.send_message(m.chat.id, 'Крутим барабан...\n'+'🕐')
             t=threading.Timer(0.1, args=[m.chat.id, msg.message_id])
-
+            t.start()
+            
 @bot.message_handler(commands=['help'])
 def help(m):
     bot.send_message(m.chat.id, 'Коэффициенты ставок:\n'+
