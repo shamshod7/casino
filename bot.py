@@ -25,8 +25,7 @@ def begin(m):
     if m.from_user.id in admins:
         if m.chat.id in games:
             bot.send_message(m.chat.id, 'Начинаем делать ставки (в лс бота)! Про коэффициенты выигрышей вы можете узнать с помощью команды /help')
-            msg=bot.send_message(m.chat.id, 'Крутим барабан...\n'+'🕐')
-            Timer(0.1, args=[m.chat.id, msg.message_id])
+            bot.send_message(m.chat.id, 'ap')
             
 @bot.message_handler(commands=['help'])
 def help(m):
