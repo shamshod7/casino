@@ -26,17 +26,583 @@ def begin(m):
         if m.chat.id in games:
             bot.send_message(m.chat.id, ' *🎰Bilet tikildi...*', parse_mode='markdown')
             bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...')
-            bot.send_message(m.chat.id, '🕡Baraban aylanmoqda...')
             bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...')
             bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🔮Aql Toshi*', parse_mode='markdown')
-            
-                 
+
+@bot.message_handler(commands=['2'])
+def begin(m):
+    if m.from_user.id in admins:
+        if m.chat.id in games:
+            bot.send_message(m.chat.id, ' *🎰Bilet tikildi...*', parse_mode='markdown')
+            bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🔮Aql Toshi*', parse_mode='markdown')
+
+@bot.message_handler(commands=['3'])
+def begin(m):
+    if m.from_user.id in admins:
+        if m.chat.id in games:
+            bot.send_message(m.chat.id, ' *🎰Bilet tikildi...*', parse_mode='markdown')
+            bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🔮Aql Toshi*', parse_mode='markdown')
+                    
+
+@bot.message_handler(commands=['4'])
+def begin(m):
+    if m.from_user.id in admins:
+        if m.chat.id in games:
+            bot.send_message(m.chat.id, ' *🎰Bilet tikildi...*', parse_mode='markdown')
+            bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🔮Aql Toshi*', parse_mode='markdown')
+    
+@bot.message_handler(commands=['5'])
+def begin(m):
+    if m.from_user.id in admins:
+        if m.chat.id in games:
+            bot.send_message(m.chat.id, ' *🎰Bilet tikildi...*', parse_mode='markdown')
+            bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🔮Aql Toshi*', parse_mode='markdown')
+    
+@bot.message_handler(commands=['6'])
+def begin(m):
+    if m.from_user.id in admins:
+        if m.chat.id in games:
+            bot.send_message(m.chat.id, ' *🎰Bilet tikildi...*', parse_mode='markdown')
+            bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🔮Aql Toshi*', parse_mode='markdown')
+    
+@bot.message_handler(commands=['7'])
+def begin(m):
+    if m.from_user.id in admins:
+        if m.chat.id in games:
+            bot.send_message(m.chat.id, ' *🎰Bilet tikildi...*', parse_mode='markdown')
+            bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🔮Aql Toshi*', parse_mode='markdown')
+    
+@bot.message_handler(commands=['8'])
+def begin(m):
+    if m.from_user.id in admins:
+        if m.chat.id in games:
+            bot.send_message(m.chat.id, ' *🎰Bilet tikildi...*', parse_mode='markdown')
+            bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🔮Aql Toshi*', parse_mode='markdown')
+    
+@bot.message_handler(commands=['9'])
+def begin(m):
+    if m.from_user.id in admins:
+        if m.chat.id in games:
+            bot.send_message(m.chat.id, ' *🎰Bilet tikildi...*', parse_mode='markdown')
+            bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🔮Aql Toshi*', parse_mode='markdown')
+    
+@bot.message_handler(commands=['10'])
+def begin(m):
+    if m.from_user.id in admins:
+        if m.chat.id in games:
+            bot.send_message(m.chat.id, ' *🎰Bilet tikildi...*', parse_mode='markdown')
+            bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🔮Aql Toshi*', parse_mode='markdown')
+    
+@bot.message_handler(commands=['11'])
+def begin(m):
+    if m.from_user.id in admins:
+        if m.chat.id in games:
+            bot.send_message(m.chat.id, ' *🎰Bilet tikildi...*', parse_mode='markdown')
+            bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🔮Aql Toshi*', parse_mode='markdown')
+    
+@bot.message_handler(commands=['12'])
+def begin(m):
+    if m.from_user.id in admins:
+        if m.chat.id in games:
+            bot.send_message(m.chat.id, ' *🎰Bilet tikildi...*', parse_mode='markdown')
+            bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🔮Aql Toshi*', parse_mode='markdown')
+    
+@bot.message_handler(commands=['13'])
+def begin(m):
+    if m.from_user.id in admins:
+        if m.chat.id in games:
+            bot.send_message(m.chat.id, ' *🎰Bilet tikildi...*', parse_mode='markdown')
+            bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🔮Aql Toshi*', parse_mode='markdown')
+    
+@bot.message_handler(commands=['14'])
+def begin(m):
+    if m.from_user.id in admins:
+        if m.chat.id in games:
+            bot.send_message(m.chat.id, ' *🎰Bilet tikildi...*', parse_mode='markdown')
+            bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🔮Aql Toshi*', parse_mode='markdown')
+    
+@bot.message_handler(commands=['15'])
+def begin(m):
+    if m.from_user.id in admins:
+        if m.chat.id in games:
+            bot.send_message(m.chat.id, ' *🎰Bilet tikildi...*', parse_mode='markdown')
+            bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🔮Aql Toshi*', parse_mode='markdown')
+    
+@bot.message_handler(commands=['16'])
+def begin(m):
+    if m.from_user.id in admins:
+        if m.chat.id in games:
+            bot.send_message(m.chat.id, ' *🎰Bilet tikildi...*', parse_mode='markdown')
+            bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🔮Aql Toshi*', parse_mode='markdown')
+    
+@bot.message_handler(commands=['17'])
+def begin(m):
+    if m.from_user.id in admins:
+        if m.chat.id in games:
+            bot.send_message(m.chat.id, ' *🎰Bilet tikildi...*', parse_mode='markdown')
+            bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🔮Aql Toshi*', parse_mode='markdown')
+    
+@bot.message_handler(commands=['18'])
+def begin(m):
+    if m.from_user.id in admins:
+        if m.chat.id in games:
+            bot.send_message(m.chat.id, ' *🎰Bilet tikildi...*', parse_mode='markdown')
+            bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🔮Aql Toshi*', parse_mode='markdown')
+    
+@bot.message_handler(commands=['19'])
+def begin(m):
+    if m.from_user.id in admins:
+        if m.chat.id in games:
+            bot.send_message(m.chat.id, ' *🎰Bilet tikildi...*', parse_mode='markdown')
+            bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🔮Aql Toshi*', parse_mode='markdown')
+    
+@bot.message_handler(commands=['20'])
+def begin(m):
+    if m.from_user.id in admins:
+        if m.chat.id in games:
+            bot.send_message(m.chat.id, ' *🎰Bilet tikildi...*', parse_mode='markdown')
+            bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🔮Aql Toshi*', parse_mode='markdown')
+    
+@bot.message_handler(commands=['21'])
+def begin(m):
+    if m.from_user.id in admins:
+        if m.chat.id in games:
+            bot.send_message(m.chat.id, ' *🎰Bilet tikildi...*', parse_mode='markdown')
+            bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🔮Aql Toshi*', parse_mode='markdown')
+    
+@bot.message_handler(commands=['22'])
+def begin(m):
+    if m.from_user.id in admins:
+        if m.chat.id in games:
+            bot.send_message(m.chat.id, ' *🎰Bilet tikildi...*', parse_mode='markdown')
+            bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🔮Aql Toshi*', parse_mode='markdown')
+    
+@bot.message_handler(commands=['23'])
+def begin(m):
+    if m.from_user.id in admins:
+        if m.chat.id in games:
+            bot.send_message(m.chat.id, ' *🎰Bilet tikildi...*', parse_mode='markdown')
+            bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🔮Aql Toshi*', parse_mode='markdown')
+    
+@bot.message_handler(commands=['24'])
+def begin(m):
+    if m.from_user.id in admins:
+        if m.chat.id in games:
+            bot.send_message(m.chat.id, ' *🎰Bilet tikildi...*', parse_mode='markdown')
+            bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🔮Aql Toshi*', parse_mode='markdown')
+    
+@bot.message_handler(commands=['25'])
+def begin(m):
+    if m.from_user.id in admins:
+        if m.chat.id in games:
+            bot.send_message(m.chat.id, ' *🎰Bilet tikildi...*', parse_mode='markdown')
+            bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🔮Aql Toshi*', parse_mode='markdown')
+    
+@bot.message_handler(commands=['1'])
+def begin(m):
+    if m.from_user.id in admins:
+        if m.chat.id in games:
+            bot.send_message(m.chat.id, ' *🎰Bilet tikildi...*', parse_mode='markdown')
+            bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🔮Aql Toshi*', parse_mode='markdown')
+    
+@bot.message_handler(commands=['1'])
+def begin(m):
+    if m.from_user.id in admins:
+        if m.chat.id in games:
+            bot.send_message(m.chat.id, ' *🎰Bilet tikildi...*', parse_mode='markdown')
+            bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🔮Aql Toshi*', parse_mode='markdown')
+    
+@bot.message_handler(commands=['1'])
+def begin(m):
+    if m.from_user.id in admins:
+        if m.chat.id in games:
+            bot.send_message(m.chat.id, ' *🎰Bilet tikildi...*', parse_mode='markdown')
+            bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🔮Aql Toshi*', parse_mode='markdown')
+    
+@bot.message_handler(commands=['26'])
+def begin(m):
+    if m.from_user.id in admins:
+        if m.chat.id in games:
+            bot.send_message(m.chat.id, ' *🎰Bilet tikildi...*', parse_mode='markdown')
+            bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🔮Aql Toshi*', parse_mode='markdown')
+    
+@bot.message_handler(commands=['27'])
+def begin(m):
+    if m.from_user.id in admins:
+        if m.chat.id in games:
+            bot.send_message(m.chat.id, ' *🎰Bilet tikildi...*', parse_mode='markdown')
+            bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🔮Aql Toshi*', parse_mode='markdown')
+    
+@bot.message_handler(commands=['28'])
+def begin(m):
+    if m.from_user.id in admins:
+        if m.chat.id in games:
+            bot.send_message(m.chat.id, ' *🎰Bilet tikildi...*', parse_mode='markdown')
+            bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🔮Aql Toshi*', parse_mode='markdown')
+    
+@bot.message_handler(commands=['29'])
+def begin(m):
+    if m.from_user.id in admins:
+        if m.chat.id in games:
+            bot.send_message(m.chat.id, ' *🎰Bilet tikildi...*', parse_mode='markdown')
+            bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🔮Aql Toshi*', parse_mode='markdown')
+    
+@bot.message_handler(commands=['30'])
+def begin(m):
+    if m.from_user.id in admins:
+        if m.chat.id in games:
+            bot.send_message(m.chat.id, ' *🎰Bilet tikildi...*', parse_mode='markdown')
+            bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🔮Aql Toshi*', parse_mode='markdown')
+    
+@bot.message_handler(commands=['31'])
+def begin(m):
+    if m.from_user.id in admins:
+        if m.chat.id in games:
+            bot.send_message(m.chat.id, ' *🎰Bilet tikildi...*', parse_mode='markdown')
+            bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🔮Aql Toshi*', parse_mode='markdown')
+    
+@bot.message_handler(commands=['32'])
+def begin(m):
+    if m.from_user.id in admins:
+        if m.chat.id in games:
+            bot.send_message(m.chat.id, ' *🎰Bilet tikildi...*', parse_mode='markdown')
+            bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🔮Aql Toshi*', parse_mode='markdown')
+    
+@bot.message_handler(commands=['33'])
+def begin(m):
+    if m.from_user.id in admins:
+        if m.chat.id in games:
+            bot.send_message(m.chat.id, ' *🎰Bilet tikildi...*', parse_mode='markdown')
+            bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🔮Aql Toshi*', parse_mode='markdown')
+    
+@bot.message_handler(commands=['1'])
+def begin(m):
+    if m.from_user.id in admins:
+        if m.chat.id in games:
+            bot.send_message(m.chat.id, ' *🎰Bilet tikildi...*', parse_mode='markdown')
+            bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🔮Aql Toshi*', parse_mode='markdown')
+    
+@bot.message_handler(commands=['34'])
+def begin(m):
+    if m.from_user.id in admins:
+        if m.chat.id in games:
+            bot.send_message(m.chat.id, ' *🎰Bilet tikildi...*', parse_mode='markdown')
+            bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🔮Aql Toshi*', parse_mode='markdown')
+    
+@bot.message_handler(commands=['35'])
+def begin(m):
+    if m.from_user.id in admins:
+        if m.chat.id in games:
+            bot.send_message(m.chat.id, ' *🎰Bilet tikildi...*', parse_mode='markdown')
+            bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🔮Aql Toshi*', parse_mode='markdown')
+    
+@bot.message_handler(commands=['36'])
+def begin(m):
+    if m.from_user.id in admins:
+        if m.chat.id in games:
+            bot.send_message(m.chat.id, ' *🎰Bilet tikildi...*', parse_mode='markdown')
+            bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🔮Aql Toshi*', parse_mode='markdown')
+    
+@bot.message_handler(commands=['37'])
+def begin(m):
+    if m.from_user.id in admins:
+        if m.chat.id in games:
+            bot.send_message(m.chat.id, ' *🎰Bilet tikildi...*', parse_mode='markdown')
+            bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🔮Aql Toshi*', parse_mode='markdown')
+    
+@bot.message_handler(commands=['38'])
+def begin(m):
+    if m.from_user.id in admins:
+        if m.chat.id in games:
+            bot.send_message(m.chat.id, ' *🎰Bilet tikildi...*', parse_mode='markdown')
+            bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🔮Aql Toshi*', parse_mode='markdown')
+    
+@bot.message_handler(commands=['39'])
+def begin(m):
+    if m.from_user.id in admins:
+        if m.chat.id in games:
+            bot.send_message(m.chat.id, ' *🎰Bilet tikildi...*', parse_mode='markdown')
+            bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🔮Aql Toshi*', parse_mode='markdown')
+    
+@bot.message_handler(commands=['40'])
+def begin(m):
+    if m.from_user.id in admins:
+        if m.chat.id in games:
+            bot.send_message(m.chat.id, ' *🎰Bilet tikildi...*', parse_mode='markdown')
+            bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🔮Aql Toshi*', parse_mode='markdown')
+    
+@bot.message_handler(commands=['41'])
+def begin(m):
+    if m.from_user.id in admins:
+        if m.chat.id in games:
+            bot.send_message(m.chat.id, ' *🎰Bilet tikildi...*', parse_mode='markdown')
+            bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🔮Aql Toshi*', parse_mode='markdown')
+    
+@bot.message_handler(commands=['42'])
+def begin(m):
+    if m.from_user.id in admins:
+        if m.chat.id in games:
+            bot.send_message(m.chat.id, ' *🎰Bilet tikildi...*', parse_mode='markdown')
+            bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🔮Aql Toshi*', parse_mode='markdown')
+    
+@bot.message_handler(commands=['43'])
+def begin(m):
+    if m.from_user.id in admins:
+        if m.chat.id in games:
+            bot.send_message(m.chat.id, ' *🎰Bilet tikildi...*', parse_mode='markdown')
+            bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🔮Aql Toshi*', parse_mode='markdown')
+    
+@bot.message_handler(commands=['44'])
+def begin(m):
+    if m.from_user.id in admins:
+        if m.chat.id in games:
+            bot.send_message(m.chat.id, ' *🎰Bilet tikildi...*', parse_mode='markdown')
+            bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🔮Aql Toshi*', parse_mode='markdown')
+    
+@bot.message_handler(commands=['45'])
+def begin(m):
+    if m.from_user.id in admins:
+        if m.chat.id in games:
+            bot.send_message(m.chat.id, ' *🎰Bilet tikildi...*', parse_mode='markdown')
+            bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🔮Aql Toshi*', parse_mode='markdown')
+    
+@bot.message_handler(commands=['46'])
+def begin(m):
+    if m.from_user.id in admins:
+        if m.chat.id in games:
+            bot.send_message(m.chat.id, ' *🎰Bilet tikildi...*', parse_mode='markdown')
+            bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🔮Aql Toshi*', parse_mode='markdown')
+    
+@bot.message_handler(commands=['47'])
+def begin(m):
+    if m.from_user.id in admins:
+        if m.chat.id in games:
+            bot.send_message(m.chat.id, ' *🎰Bilet tikildi...*', parse_mode='markdown')
+            bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🔮Aql Toshi*', parse_mode='markdown')
+    
+@bot.message_handler(commands=['48'])
+def begin(m):
+    if m.from_user.id in admins:
+        if m.chat.id in games:
+            bot.send_message(m.chat.id, ' *🎰Bilet tikildi...*', parse_mode='markdown')
+            bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🔮Aql Toshi*', parse_mode='markdown')
+    
+@bot.message_handler(commands=['49'])
+def begin(m):
+    if m.from_user.id in admins:
+        if m.chat.id in games:
+            bot.send_message(m.chat.id, ' *🎰Bilet tikildi...*', parse_mode='markdown')
+            bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🔮Aql Toshi*', parse_mode='markdown')
+         
+@bot.message_handler(commands=['50'])
+def begin(m):
+    if m.from_user.id in admins:
+        if m.chat.id in games:
+            bot.send_message(m.chat.id, ' *🎰Bilet tikildi...*', parse_mode='markdown')
+            bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🔮Aql Toshi*', parse_mode='markdown')
+     
+@bot.message_handler(commands=['51'])
+def begin(m):
+    if m.from_user.id in admins:
+        if m.chat.id in games:
+            bot.send_message(m.chat.id, ' *🎰Bilet tikildi...*', parse_mode='markdown')
+            bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🔮Aql Toshi*', parse_mode='markdown')
+       
+@bot.message_handler(commands=['52'])
+def begin(m):
+    if m.from_user.id in admins:
+        if m.chat.id in games:
+            bot.send_message(m.chat.id, ' *🎰Bilet tikildi...*', parse_mode='markdown')
+            bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🔮Aql Toshi*', parse_mode='markdown')
+       
+@bot.message_handler(commands=['53'])
+def begin(m):
+    if m.from_user.id in admins:
+        if m.chat.id in games:
+            bot.send_message(m.chat.id, ' *🎰Bilet tikildi...*', parse_mode='markdown')
+            bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🔮Aql Toshi*', parse_mode='markdown')
+       
+@bot.message_handler(commands=['54'])
+def begin(m):
+    if m.from_user.id in admins:
+        if m.chat.id in games:
+            bot.send_message(m.chat.id, ' *🎰Bilet tikildi...*', parse_mode='markdown')
+            bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🔮Aql Toshi*', parse_mode='markdown')
+       
+@bot.message_handler(commands=['55'])
+def begin(m):
+    if m.from_user.id in admins:
+        if m.chat.id in games:
+            bot.send_message(m.chat.id, ' *🎰Bilet tikildi...*', parse_mode='markdown')
+            bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🔮Aql Toshi*', parse_mode='markdown')
+       
+@bot.message_handler(commands=['56'])
+def begin(m):
+    if m.from_user.id in admins:
+        if m.chat.id in games:
+            bot.send_message(m.chat.id, ' *🎰Bilet tikildi...*', parse_mode='markdown')
+            bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🔮Aql Toshi*', parse_mode='markdown')
+       
+@bot.message_handler(commands=['57'])
+def begin(m):
+    if m.from_user.id in admins:
+        if m.chat.id in games:
+            bot.send_message(m.chat.id, ' *🎰Bilet tikildi...*', parse_mode='markdown')
+            bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🔮Aql Toshi*', parse_mode='markdown')
+       
+@bot.message_handler(commands=['58'])
+def begin(m):
+    if m.from_user.id in admins:
+        if m.chat.id in games:
+            bot.send_message(m.chat.id, ' *🎰Bilet tikildi...*', parse_mode='markdown')
+            bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🔮Aql Toshi*', parse_mode='markdown')
+       
+@bot.message_handler(commands=['59'])
+def begin(m):
+    if m.from_user.id in admins:
+        if m.chat.id in games:
+            bot.send_message(m.chat.id, ' *🎰Bilet tikildi...*', parse_mode='markdown')
+            bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🔮Aql Toshi*', parse_mode='markdown')
+       
+@bot.message_handler(commands=['60'])
+def begin(m):
+    if m.from_user.id in admins:
+        if m.chat.id in games:
+            bot.send_message(m.chat.id, ' *🎰Bilet tikildi...*', parse_mode='markdown')
+            bot.send_message(m.chat.id, '🕒Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, '🕤Baraban aylanmoqda...')
+            bot.send_message(m.chat.id, 'Tabriklaymiz siz yutib oldingiz - *🔮Aql Toshi*', parse_mode='markdown')
+                     
 @bot.message_handler(commands=['help'])
 def help(m):
-    bot.send_message(m.chat.id, 'Коэффициенты ставок:\n'+
-                     '1-15, 16-30: *1.5*\n'+
-                     '1-5, 6-10, 11-15, 16-20, 21-25, 26-30: *5*\n'+
-                     '0: *25*', parse_mode='markdown')
+    bot.send_message(m.chat.id, '*Casiondagi yutuqlar*:\n'+
+                     '*🔮Aql Toshi*\n'+
+                     '*🔮Aql Toshi*\n'+
+                     '*🔮Aql Toshi*', parse_mode='markdown')
             
 
 @bot.message_handler(commands=['roll'])
