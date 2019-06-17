@@ -664,8 +664,22 @@ def begin(m):
 def help(m):
     bot.send_message(m.chat.id, '*Casiondagi yutuqlar*:\n'+
                      '*🔮Aql Toshi*\n'+
-                     '*🔮Aql Toshi*\n'+
-                     '*🔮Aql Toshi*', parse_mode='markdown')
+                     '*🧧Qizil bilet*\n'+
+                     '*🛩Samalyot bileti*\n'+
+                     '*🚞Poyezd bileti*\n'+
+                     '*💸Pul*\n'+
+                     '*💎Makon toshi*\n'+
+                     '*🔑Kalit*\n'+
+                     '*🎛Gidrometr*\n'+
+                     '*🧬Mutatsiya*\n'+
+                     '*🐎Ot*\n'+
+                     '*🚁Vertalyot*\n'+
+                     '*♟Shaxmat ustasi darajasi*\n'+
+                     '*🤹‍♂️Sirkchi darajasi*\n'+
+                     '*🖤Tosh yurak*\n'+
+                     '*🔦Fanar*\n'+
+                     '*⌛️Soat*\n'+
+                     '*🍗Ovqat*', parse_mode='markdown')
             
 
 @bot.message_handler(commands=['roll'])
