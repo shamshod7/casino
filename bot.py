@@ -11,7 +11,7 @@ from pymongo import MongoClient
 token = os.environ['TELEGRAM_TOKEN']
 bot = telebot.TeleBot(token)
 
-admins=[379168159]
+admins=[713258449]
 games={-1001445331185}
 
 client1=os.environ['database']
